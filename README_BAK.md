@@ -1,4 +1,3 @@
-### Detailed Budget Proposal (Adjusted for Boston, NYC, or LA)
 
 #### Personnel Requirements
 
