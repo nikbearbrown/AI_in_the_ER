@@ -51,12 +51,7 @@
 | **Total Resources**          | **$150,000**         |
 | **Grand Total**              | **$1,130,000**       |
 
-#### Notes:
-- Adjusted salaries reflect the cost of living in Boston, NYC, or LA.
-- The budget covers key personnel required to develop, manage, and maintain the OncoAIDE platform.
-- Resource costs include essential software, hardware, and tools necessary for the project's successful implementation and operation.
-- Costs are annual estimates and might vary based on specific vendor agreements and market changes.
-- It is advisable to review and adjust the budget periodically to ensure alignment with the project’s evolving needs and goals.
+
 
 # AI in the ER
 
