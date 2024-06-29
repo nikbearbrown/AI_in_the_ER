@@ -4,7 +4,7 @@
 
 The integration of Artificial Intelligence (AI) into emergency medical services (EMS) has shown substantial potential to enhance efficiency, diagnostic accuracy, and patient outcomes. This survey provides a comprehensive overview of the current applications of AI in emergency medicine, focusing on its role in triage systems, predictive analytics, radiology, and stroke diagnosis. The purpose of this survey is to analyze the algorithms and tools employed in these applications and to explore how bespoke AI tools could be developed to further enhance clinical practices. By improving diagnostic precision, streamlining triage processes, and enabling early interventions, AI significantly contributes to better patient management and outcomes in emergency settings. The survey also addresses the importance of interpretability and trust in AI models, highlighting the need for transparent and reliable AI systems. Future directions for AI integration in emergency medicine are discussed, suggesting the potential for developing customized tools tailored to specific clinical needs.
 
-### 2. AI-Powered Triage Systems
+### AI-Powered Triage Systems
 
 AI-powered triage systems assess patient symptoms and prioritize treatment based on the severity of conditions. These systems utilize natural language processing (NLP) and machine learning algorithms to analyze patient records, vital signs, and symptoms, facilitating quicker and more accurate triage decisions. By doing so, AI helps in reducing patient wait times and ensuring that critical cases receive immediate attention. AI is increasingly being used in emergency medicine to improve clinical outcomes. It is being utilized in triage and diagnosis, with AI-powered systems prioritizing treatment based on the severity of conditions (Rajput, 2023). AI is also being used to predict patient outcomes and deterioration, enhancing the accuracy and efficiency of emergency department triage and care (Akeel, 2023). In emergency and trauma radiology, AI is assisting with the increasing imaging volume and workload, potentially improving patient safety and care quality (Jalal, 2020). Despite these advancements, concerns remain about algorithm opacity, trust, and patient data security (Stewart, 2018).
 
@@ -24,7 +24,55 @@ AI in EDs is in its early stages but shows great promise in enhancing clinical d
 
 #### References
 Boonstra, A., & Laven, M. (2022). Influence of artificial intelligence on the work design of emergency department clinicians: A systematic literature review. *BMC Health Services Research*. https://doi.org/10.1186/s12913-022-08070-7
+Here's the refined section on AI applications in emergency medicine and the suggested tools for developing bespoke AI applications at UNC Medical Center:
 
+### AI Applications in Emergency Medicine and Tool Recommendations
+
+These 
+
+1. **AI in Triage and Clinical Decision Support**:
+   - **Functionality**: Develop a system using NLP to extract and analyze patient symptoms from electronic health records (EHR).
+   - **Tools Needed**:
+     - **NLP Frameworks**: Utilize spaCy or NLTK for text preprocessing and symptom extraction.
+     - **Machine Learning Models**: Implement TensorFlow or PyTorch for categorizing patient conditions based on severity.
+     - **Integration**: Integrate with hospital databases and EHR systems for real-time data analysis.
+
+2. **Clinical Decision Support**:
+   - **Functionality**: Provide decision support by analyzing patient data and recommending treatment plans.
+   - **Tools Needed**:
+     - **Clinical Decision Support API**: Implement CDS Hooks for integrating decision support functionalities with EHR.
+     - **Machine Learning Models**: Develop predictive models using TensorFlow Extended (TFX) for patient outcome predictions.
+     - **Real-time Data Analysis**: Use Apache Kafka for streaming data processing and decision support alerts.
+
+3. **Radiology Assistance**:
+   - **Functionality**: Assist radiologists in interpreting medical images and prioritizing urgent cases.
+   - **Tools Needed**:
+     - **Medical Image Analysis**: Utilize TensorFlow or OpenCV for image preprocessing and anomaly detection.
+     - **DICOM Libraries**: Manage medical imaging data with DICOM libraries for standardized image analysis.
+     - **Integration**: Integrate AI models with Picture Archiving and Communication Systems (PACS) for seamless image retrieval.
+
+4. **Predictive Analytics**:
+   - **Functionality**: Develop models to forecast patient outcomes and identify high-risk patients.
+   - **Tools Needed**:
+     - **Predictive Modeling**: Use scikit-learn or Prophet for time-series forecasting and risk assessment.
+     - **Data Integration**: Integrate with data warehousing solutions for historical patient data analysis.
+     - **Alert Mechanisms**: Implement notification systems for alerting healthcare providers about predicted outcomes.
+
+5. **Data Security and Privacy**:
+   - **Functionality**: Ensure secure handling and storage of patient data to comply with healthcare regulations.
+   - **Tools Needed**:
+     - **Encryption**: Implement AES-256 encryption for data at rest and in transit.
+     - **Access Controls**: Use role-based access control (RBAC) for managing data access permissions.
+     - **Anonymization**: Apply anonymization techniques to protect patient identities in data analysis.
+
+6. **Integration and Scalability**:
+   - **Functionality**: Deploy scalable AI applications within the hospital IT infrastructure.
+   - **Tools Needed**:
+     - **Containerization**: Use Docker or Kubernetes for containerized deployment and scalability.
+     - **Microservices Architecture**: Design applications as microservices for modular development and integration.
+     - **Monitoring and Maintenance**: Implement Prometheus and Grafana for monitoring application performance and resource utilization.
+
+These tools and functionalities enable UNC Medical Center to leverage AI effectively in emergency medicine, enhancing clinical workflows, diagnostic accuracy, and patient outcomes while ensuring compliance with healthcare standards and regulations.
 #### AI-Based Predictive Modelling
 
 AI in EM can significantly reduce waiting times and improve diagnostic accuracy, offering substantial benefits in patient care. Predictive modelling is a logical fit for AI in the medical field, where various AI systems predict diseases and other unfavorable outcomes. AI has been particularly beneficial in emergency care. Researchers have used Random Forests (RFs), logistic regression (LR), and gradient-boosted machines (GBM) to forecast hospital admissions using emergency department (ED) data. For instance, a web-based application employing data mining and machine learning (ML) techniques provides real-time estimations of future ED visits. Data from outpatient clinics can also enable population-level risk assessments, with AI playing a pivotal role.
