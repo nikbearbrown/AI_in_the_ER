@@ -1,3 +1,64 @@
+### Detailed Budget Proposal (Adjusted for Boston, NYC, or LA)
+
+#### Personnel Requirements
+
+| **Position**         | **Tasks**                                          | **Qualifications**                                  | **Annual Salary** |
+|----------------------|----------------------------------------------------|-----------------------------------------------------|-------------------|
+| IT Director          | Oversee IT infrastructure, manage tech teams      | Advanced degree in IT, 10+ years experience         | $200,000          |
+| Data Scientist       | Develop AI models, manage data                    | Advanced degree in engineering or similar fields, 5+ years experience | $160,000          |
+| Software Developer   | Develop and maintain platform                     | Bachelor’s in Computer Science, 3+ years            | $120,000          |
+| UX/UI Designer       | Design user interfaces                            | Degree in Design, 3+ years experience               | $100,000          |
+| QA Specialist        | Ensure quality and compliance                     | Degree in IT, 3+ years experience                   | $90,000           |
+| Project Manager      | Oversee project timelines, coordination           | PMP Certification, 5+ years experience              | $130,000          |
+| Technical Support    | Provide tech support to users                     | Degree in IT, 2+ years experience                   | $80,000           |
+| Trainer/Educator     | Develop and deliver training programs             | Degree in Education, 5+ years experience            | $100,000          |
+
+#### Resource Requirements
+
+| **Item**                     | **Vendor**           | **Cost**        |
+|------------------------------|----------------------|-----------------|
+| Servers and Cloud Storage    | AWS, Google Cloud    | $50,000         |
+| AI and NLP Software Licenses | Proprietary Software | $30,000         |
+| Design Software              | Adobe Creative Cloud | $5,000          |
+| VR Equipment                 | Oculus, HTC Vive     | $30,000         |
+| Security Software            | OpenSSL, Let’s Encrypt| $10,000        |
+| Training Materials           | Various Educational Vendors | $15,000    |
+| Feedback Collection Tools    | LimeSurvey, Google Forms | $3,000    |
+| Analytics Tools              | Apache Kafka, Grafana | $7,000         |
+
+#### Annual Budget
+
+| **Category**                 | **Cost**             |
+|------------------------------|----------------------|
+| **Personnel**                |                      |
+| IT Director                  | $200,000             |
+| Data Scientist               | $160,000             |
+| Software Developer           | $120,000             |
+| UX/UI Designer               | $100,000             |
+| QA Specialist                | $90,000              |
+| Project Manager              | $130,000             |
+| Technical Support            | $80,000              |
+| Trainer/Educator             | $100,000             |
+| **Total Personnel**          | **$980,000**         |
+| **Resources**                |                      |
+| Servers and Cloud Storage    | $50,000              |
+| AI and NLP Software Licenses | $30,000              |
+| Design Software              | $5,000               |
+| VR Equipment                 | $30,000              |
+| Security Software            | $10,000              |
+| Training Materials           | $15,000              |
+| Feedback Collection Tools    | $3,000               |
+| Analytics Tools              | $7,000               |
+| **Total Resources**          | **$150,000**         |
+| **Grand Total**              | **$1,130,000**       |
+
+#### Notes:
+- Adjusted salaries reflect the cost of living in Boston, NYC, or LA.
+- The budget covers key personnel required to develop, manage, and maintain the OncoAIDE platform.
+- Resource costs include essential software, hardware, and tools necessary for the project's successful implementation and operation.
+- Costs are annual estimates and might vary based on specific vendor agreements and market changes.
+- It is advisable to review and adjust the budget periodically to ensure alignment with the project’s evolving needs and goals.
+
 # AI in the ER
 
 ### 1. Introduction
