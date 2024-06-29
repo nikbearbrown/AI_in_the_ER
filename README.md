@@ -1,8 +1,40 @@
 ### AI in the ER
 
-### Abstract
+**Abstract**
 
 The integration of Artificial Intelligence (AI) into emergency medical services (EMS) has shown substantial potential to enhance efficiency, diagnostic accuracy, and patient outcomes. This survey provides a comprehensive overview of the current applications of AI in emergency medicine, focusing on its role in triage systems, predictive analytics, radiology, and stroke diagnosis. The purpose of this survey is to analyze the algorithms and tools employed in these applications and to explore how bespoke AI tools could be developed to further enhance clinical practices. By improving diagnostic precision, streamlining triage processes, and enabling early interventions, AI significantly contributes to better patient management and outcomes in emergency settings. The survey also addresses the importance of interpretability and trust in AI models, highlighting the need for transparent and reliable AI systems. Future directions for AI integration in emergency medicine are discussed, suggesting the potential for developing customized tools tailored to specific clinical needs.
+
+**Introduction**
+
+Artificial Intelligence (AI) is increasingly being integrated into emergency medicine to support clinical decision-making and enhance patient care. This survey examines the current landscape of AI applications in emergency settings, emphasizing its impact on triage, diagnostics, and treatment planning. While existing commercial solutions like IBM Watson Health, Cerner AI, GE Healthcare, Philips Healthcare, Google Health, and Amazon Web Services (AWS) Healthcare offer robust AI capabilities, there is a growing need for bespoke extensions to optimize these tools for real-time, hands-free use and ensure data accuracy and reliability before integration.
+
+**Current Applications of AI in Emergency Medicine**
+
+1. **Triage Systems**: AI-powered triage systems prioritize patient cases based on severity, optimizing resource allocation and reducing wait times. Solutions like IBM Watson Health and Cerner AI streamline triage processes by analyzing patient data and providing actionable insights to healthcare providers.
+
+2. **Predictive Analytics**: AI models in emergency medicine predict patient outcomes and identify high-risk cases, enabling early interventions and personalized treatment plans. Tools from Google Health and AWS Healthcare leverage machine learning to analyze vast datasets and forecast patient trajectories.
+
+3. **Radiology and Imaging Analysis**: AI enhances medical imaging interpretation in emergency and trauma radiology, improving diagnostic accuracy and workflow efficiency. Solutions by GE Healthcare and Philips Healthcare utilize AI algorithms for rapid image analysis and anomaly detection.
+
+4. **Stroke Diagnosis**: AI algorithms assist in the rapid diagnosis of strokes by analyzing imaging data and clinical indicators. These tools aid in timely interventions, potentially reducing long-term disability and improving patient outcomes.
+
+**Bespoke Extensions for Enhanced Clinical Practices**
+
+To maximize the effectiveness of existing AI solutions in emergency medicine, bespoke extensions are crucial:
+
+- **Data Validation and Cleaning**: Ensure data accuracy and reliability through rigorous validation and cleaning processes before AI integration. This step minimizes errors and enhances the trustworthiness of AI-driven insights.
+
+- **Voice Recognition Technology**: Implement hands-free, real-time AI interactions using voice recognition technology. This innovation allows healthcare providers to access and utilize AI recommendations seamlessly during emergency procedures.
+
+**Importance of Interpretability and Trust**
+
+Transparent AI models, supported by techniques like SHAP values, are essential for fostering trust among healthcare providers. Explainable AI ensures that clinicians understand the rationale behind AI recommendations, facilitating informed decision-making and improving acceptance of AI technologies in emergency settings.
+
+**Future Directions**
+
+Future advancements in AI for emergency medicine should focus on developing customized tools tailored to specific clinical needs. These tools should integrate seamlessly with existing workflows, prioritize patient safety, and enhance overall operational efficiency in emergency departments.
+
+AI holds immense potential to transform emergency medical services by enhancing diagnostic accuracy, improving triage efficiency, and facilitating early interventions. While commercial solutions provide robust capabilities, custom extensions like enhanced data validation and voice recognition technology can further optimize AI tools for real-time use in emergency settings. By prioritizing interpretability, trust, and tailored solutions, AI integration in emergency medicine can significantly improve patient outcomes and reshape healthcare delivery.
 
 ### AI-Powered Triage Systems
 
