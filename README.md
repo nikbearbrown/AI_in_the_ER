@@ -5,17 +5,37 @@
 The integration of Artificial Intelligence (AI) into emergency medical services (EMS) has shown substantial potential to enhance efficiency, diagnostic accuracy, and patient outcomes. This survey provides a comprehensive overview of the current applications of AI in emergency medicine, focusing on its role in triage systems, predictive analytics, radiology, and stroke diagnosis. The purpose of this survey is to analyze the algorithms and tools employed in these applications and to explore how bespoke AI tools could be developed to further enhance clinical practices. By improving diagnostic precision, streamlining triage processes, and enabling early interventions, AI significantly contributes to better patient management and outcomes in emergency settings. The survey also addresses the importance of interpretability and trust in AI models, highlighting the need for transparent and reliable AI systems. Future directions for AI integration in emergency medicine are discussed, suggesting the potential for developing customized tools tailored to specific clinical needs.
 
 
-### Abstract
 
-The integration of Artificial Intelligence (AI) into emergency medical services (EMS) has shown substantial potential to enhance efficiency, diagnostic accuracy, and patient outcomes. This survey provides a comprehensive overview of the current applications of AI in emergency medicine, focusing on its role in triage systems, predictive analytics, radiology, and stroke diagnosis. The purpose of this survey is to analyze the algorithms and tools employed in these applications and to explore how bespoke AI tools could be developed to further enhance clinical practices. By improving diagnostic precision, streamlining triage processes, and enabling early interventions, AI significantly contributes to better patient management and outcomes in emergency settings. The survey also addresses the importance of interpretability and trust in AI models, highlighting the need for transparent and reliable AI systems. Future directions for AI integration in emergency medicine are discussed, suggesting the potential for developing customized tools tailored to specific clinical needs.
-
-### 1. Introduction
 
 Artificial Intelligence (AI) and Machine Learning (ML) have shown significant promise in transforming emergency medicine by improving operational efficiencies, enhancing patient care quality, and addressing critical challenges like diagnostic dilemmas and waiting times. This survey reviews key studies on AI and ML applications within emergency departments (EDs), highlighting their contributions and potential impacts on the field.
 
-### 2. AI-Powered Triage Systems
+#### 2. AI-Powered Triage Systems
 
 AI-powered triage systems assess patient symptoms and prioritize treatment based on the severity of conditions. These systems utilize natural language processing (NLP) and machine learning algorithms to analyze patient records, vital signs, and symptoms, facilitating quicker and more accurate triage decisions. By doing so, AI helps in reducing patient wait times and ensuring that critical cases receive immediate attention.
+
+#### 6. The Significance and Mechanism of AI in Emergency Medicine
+
+This section elucidates the workflow of AI in Emergency Medicine (EM), focusing on its significance and mechanisms.
+
+##### 6.1 AI-Based Predictive Modelling
+
+Predictive modelling is a logical fit for AI in the medical field, where various AI systems predict diseases and other unfavorable outcomes. AI has been particularly beneficial in emergency care. Researchers have used decision trees (DTs), logistic regression (LR), and gradient-boosted machines (GBM) to forecast hospital admissions using emergency department (ED) data . For instance, a web-based application employing data mining and machine learning (ML) techniques provides real-time estimations of future ED visits . Data from outpatient clinics can also enable population-level risk assessments, with AI playing a pivotal role.
+
+A clinical decision tool developed by researchers predicts which patients are likely to require readmission to the ED within 72 hours . Using patient-specific data, ED staff can anticipate readmissions, allowing them to improve care and provide further instructions to reduce such occurrences. Artificial Neural Networks (ANNs) have been used to predict the behavior of infants and toddlers with bronchiolitis, although accurately estimating the duration of hospital stays remains challenging . ANNs have also been developed to predict injuries in the craniocervical junction of trauma patients  and the occurrence of acute coronary syndromes . Researchers have used neural networks, among other techniques, to construct models for predicting mortality and acute morbidity .
+
+The advent of electronic health records has facilitated predictive modelling for complex and extensive data sets. However, traditional LR becomes difficult when independent variables outnumber observations . Researchers have addressed this by employing variable selection and ranking techniques to identify predictive characteristics, enhancing the forecasting of adverse cardiac events in ED patients . Machine learning has proven more effective than clinical evaluations in predicting in-hospital mortality for ED patients with sepsis .
+
+##### 6.2 AI-Based Patient Monitoring
+
+Advances in sensor technology and computational capacity have made continuous patient monitoring a reality. Researchers have demonstrated wireless systems for monitoring unattended ED patients . One study developed and assessed an integrated monitoring system in the ED, which included Personal Digital Assistants and bedside monitors communicating with a unified system . Comparing a traditional Early Warning System (EWS) with an AI-based EWS, researchers highlighted the efficacy of automated patient assessments using electronic health records and AI methodologies. Integrating AI characteristics into interdisciplinary patient monitoring systems has shown benefits, particularly in managing physiological data like electrocardiography in emergency contexts  .
+
+##### 6.3 AI-Based ED Operations
+
+Efficient management of resources and patient flow is essential in the ED. Researchers have predicted ED workload using time series analysis, such as autoregressive integrated moving average (ARIMA), to aid resource planning . An agent-based simulation program evaluated the impact of different physician staffing arrangements on ED crowding . Diagnostic decision support systems are crucial for proper patient triage in the ED. Data mining techniques, like Naive Bayes and the C4.5 algorithm, have been used to assess patient severity , and machine learning techniques have predicted staff positioning related to the triage of asthma and chronic obstructive pulmonary disease patients . Natural Language Processing (NLP) and ML algorithms have automated the outcome categorization of ED computed tomography reports for both adult and pediatric patients  .
+
+AI and ML methods have been routinely incorporated into ED procedures. Machine learning-based electronic triage systems have been found to outperform traditional methods in differentiating patients with respect to clinical outcomes . Deep learning triage and acuity scores have been validated using large national datasets, showing versatility and application in diverse contexts, including prehospital emergency medical services . Web-based interfaces utilizing machine and deep learning technologies have linked acute abdominal pain to ESI scores with increased accuracy .
+
+In summary, AI-based predictive modelling, patient monitoring, and ED operations significantly enhance emergency medicine by improving diagnostic accuracy, resource management, and patient outcomes. These advancements demonstrate AI's potential to transform emergency medical services and highlight areas for further development and integration.
 
 **Key References:**
 - "Artificial intelligence for emergency medical care," Shivam Rajput, P. Sharma, R. Malviya. [DOI: 10.1002/hcs2.72](https://doi.org/10.1002/hcs2.72). Health Care Science, 2023.
