@@ -1070,3 +1070,175 @@ eterioration in the Emergency Department. Journal of Healthcare Sciences. 2023;1
 18. Aliper A, et al. Deep learning applications for predicting pharmacological properties of drugs and drug repurposing using transcriptomic data. Molecular Pharmaceutics. 2016;13:2524-2530. [DOI link](https://doi.org/10.1021/acs.molpharmaceut.6b00248).
 19. Jadczyk T, et al. Feasibility of a voice-enabled automated platform for assessing health outcomes in cardiovascular patients: Implications for pandemics. Journal of Medical Internet Research. 2021;23:e23604. [DOI link](https://doi.org/10.2196/23604).
 20. Bhaskar S, et al. Telemedicine across the globe-position paper from the COVID-19 pandemic health system resilience PROGRAM (REPROGRAM) international consortium (part 1). Frontiers in Public Health. 2020;8:556720. [DOI link](https://doi.org/10.3389/fpubh.2020.556720). 
+
+
+### Appendix: Summary of Key Papers
+
+#### AI-Enhanced Personalized Care in Emergency Medicine
+
+**Artificial Intelligence and Machine Learning in Emergency Medicine**  
+*Authors:* Kenneth Jian Wei Tang et al. (2021)  
+*Journal:* Biocybernetics and Biomedical Engineering  
+*Summary:* This paper summarizes the applications of artificial intelligence and machine learning in emergency medicine, highlighting their potential to improve operational efficiencies and the quality of healthcare by addressing challenges such as waiting times and diagnostic dilemmas.
+
+**How Artificial Intelligence Could Transform Emergency Care**  
+*Authors:* Marika M Kachman et al. (2024)  
+*Journal:* American Journal of Emergency Medicine  
+*Summary:* The paper discusses how AI-assisted symptom checkers could direct patients to the appropriate care setting, emphasizing the transformative benefits and potential concerns around the use of AI in emergency department care.
+
+**Explainable Artificial Intelligence in Emergency Medicine: An Overview**  
+*Authors:* Y. Okada et al. (2023)  
+*Journal:* Clinical and Experimental Emergency Medicine  
+*Summary:* This paper provides an overview of the importance of explainable AI in emergency medicine. It covers definitions, importance, approaches, and challenges associated with implementing explainable AI, highlighting its role in justifying, controlling, improving, and discovering clinical insights.
+
+**The Use of AI in Predicting Patient Outcomes and Deterioration in the Emergency Department**  
+*Authors:* Amal Akeel et al. (2023)  
+*Journal:* Journal of Healthcare Sciences  
+*Summary:* This paper discusses the use of AI in emergency departments to predict patient outcomes and detect deterioration. It examines how AI can enhance the accuracy, efficiency, and interpretability of emergency care by providing timely and objective predictions and explanations.
+
+**Artificial Intelligence and Machine Learning in Emergency Medicine: A Narrative Review**  
+*Authors:* Brianna Mueller et al. (2022)  
+*Journal:* Acute Medicine & Surgery  
+*Summary:* The paper provides a narrative review of AI and machine learning applications in emergency medicine. It highlights how transparent explanations facilitated by SHAP values can improve communication with patients and their families, building confidence in clinical decisions.
+
+**The Aspects of Running Artificial Intelligence in Emergency Care; A Scoping Review**  
+*Authors:* Mohsen Masoumian Hosseini et al. (2023)  
+*Journal:* Archives of Academic Emergency Medicine  
+*Summary:* This scoping review examines the various applications of AI in emergency medicine, focusing on the ethical challenges posed by the opacity of AI-based decision-making and the potential benefits of these technologies.
+
+**AI in the ED? Maybe**  
+*Authors:* G. Shaw (2023)  
+*Journal:* Emergency Medicine News  
+*Summary:* The paper discusses the potential of machine learning and artificial intelligence in emergency departments, noting that while the technology is not yet ready for widespread clinical use, it has the potential to become a valuable tool for emergency physicians.
+
+**Point of Care AI-Driven ER2EP Referrals for Non-Valvular Atrial Fibrillation Patients in the Emergency Department**  
+*Authors:* Kim Schwab (2023)  
+*Journal:* Cardiovascular Digital Health Journal  
+*Summary:* This paper highlights the use of a cloud-based AI clinical decision support tool to facilitate guideline-driven care and procedures for atrial fibrillation patients in the emergency department. It reports higher rates of anticoagulation, CHA2DS2-VASc scoring, EP referrals, LAAC device placement, and RF ablation.
+
+#### AI Applications in ER Medicine for Improved Clinical Outcomes
+
+**Artificial Intelligence for Emergency Medical Care**  
+*Authors:* Shivam Rajput et al. (2023)  
+*Journal:* Health Care Science  
+*Summary:* This paper summarizes recent developments in AI and machine learning algorithms in emergency medical services, focusing on improving efficiency and quality through reduced waiting times and enhanced diagnostic capabilities.
+
+**Applications of Artificial Intelligence in Emergency Medicine**  
+*Authors:* K. Grant et al. (2019)  
+*Summary:* This paper discusses the potential of AI in various emergency medicine applications, such as interpreting diagnostic imaging, predicting patient outcomes, and monitoring patient vitals, while highlighting the barriers to widespread AI adoption.
+
+**Artificial Intelligence in Emergency Medicine: Benefits, Risks, and Recommendations**  
+*Authors:* Laura Vearrier et al. (2022)  
+*Journal:* Journal of Emergency Medicine  
+*Summary:* The paper addresses the integration of AI into emergency medicine, emphasizing potential benefits and the need for careful vetting, standards, and education around new AI technologies.
+
+**Artificial Intelligence in Emergency Medicine: A Systematic Literature Review**  
+*Authors:* Konstantin Piliuk et al. (2023)  
+*Journal:* International Journal of Medical Informatics  
+*Summary:* This systematic review examines the use of AI in emergency medicine, identifying contributions, main obstacles, and directions for further studies to enhance AI integration in clinical practice.
+
+**Influence of Artificial Intelligence on the Work Design of Emergency Department Clinicians: A Systematic Literature Review**  
+*Authors:* A. Boonstra et al. (2022)  
+*Journal:* BMC Health Services Research  
+*Summary:* This review explores how AI impacts the work design of clinicians in emergency departments, discussing potential improvements in clinical decision-making processes.
+
+**Artificial Intelligence in Medicine: Revolutionizing Healthcare for Improved Patient Outcomes**  
+*Authors:* Varshil Mehta (2023)  
+*Journal:* Journal of Medical Research and Innovation  
+*Summary:* The paper discusses how AI is revolutionizing healthcare by improving diagnosis, enabling personalized treatment, enhancing clinical decision-making, and addressing ethical considerations.
+
+**Exploring the Role of Artificial Intelligence in an Emergency and Trauma Radiology Department**  
+*Authors:* S. Jalal et al. (2020)  
+*Journal:* Canadian Association of Radiologists Journal  
+*Summary:* The paper examines the use of AI in emergency and trauma radiology to manage increasing imaging volumes and workloads, highlighting its potential to improve patient care quality.
+
+**Artificial Intelligence in Emergency Medicine: A Scoping Review**  
+*Authors:* A. Kirubarajan et al. (2020)  
+*Journal:* Journal of the American College of Emergency Physicians Open  
+*Summary:* This scoping review systematically examines AI applications in emergency medicine, finding a rapidly growing interest and heterogeneous purposes and designs for AI interventions.
+
+#### AI-Enhanced Personalized Care in Emergency Medicine
+
+**Artificial Intelligence, Bias, and Clinical Safety**  
+*Authors:* R. Challen et al. (2019)  
+*Journal:* BMJ Quality & Safety  
+*Summary:* This paper critically analyzes the quality and safety considerations for AI and machine learning in healthcare, emphasizing the need to address bias and transparency in clinical decision support systems.
+
+**Accessing Artificial Intelligence for Clinical Decision-Making**  
+*Authors:* C. Giordano et al. (2021)  
+*Journal:* Frontiers in Digital Health  
+*Summary:* The paper reviews current and future applications of AI in clinical medicine, including risk stratification, patient outcome optimization, and early warning systems, while addressing potential risks and educational needs for clinicians.
+
+**Shortcuts Causing Bias in Radiology Artificial Intelligence: Causes, Evaluation, and Mitigation**  
+*Authors:* I. Banerjee et al. (2023)  
+*Journal:* Journal of the American College of Radiology  
+*Summary:* This review discusses the problem of bias in radiology AI models due to "shortcut learning," different types of biases, and techniques for evaluating and mitigating such biases.
+
+**Diagnosing and Remediating Harmful Data Shifts for the Responsible Deployment of Clinical AI Models**  
+*Authors:* V. Subasri et al. (2023)  
+*Journal:* medRxiv  
+*Summary:* The study evaluates the impact of data shifts on a clinical AI system for predicting in-hospital mortality and explores strategies like transfer learning and continual learning to improve model robustness across different settings.
+
+**The Clinician and Dataset Shift in Artificial Intelligence**  
+*Authors:* S. G. Finlayson et al. (2021)  
+*Journal:* New England Journal of Medicine  
+*Summary:* The paper discusses the importance of recognizing and mitigating dataset shifts in AI systems used in clinical practice, emphasizing clinician involvement in AI governance.
+
+**Explainable Artificial Intelligence Model for Mortality Risk Prediction in the Intensive Care Unit: A Derivation and Validation Study**  
+*Authors:* Chang Hu et al. (2024)  
+*Journal:* Postgraduate Medical Journal  
+*Summary:* The study develops a transparent machine learning model using SHAP methodology to predict mortality risk in critically ill patients, identifying top risk factors such as Glasgow Coma Scale, urine output, and blood urea nitrogen.
+
+**Ensuring Fairness in Machine Learning to Advance Health Equity**  
+*Authors:* A. Rajkomar et al. (2018)  
+*Journal:* Annals of Internal Medicine  
+*Summary:* The abstract argues for proactive design of machine learning systems to advance health equity, recommending a participatory process involving stakeholders to ensure fairness.
+
+**Breaking Bias: The Role of Artificial Intelligence in Improving Clinical Decision-Making**  
+*Authors:* Christopher Brown et al. (2023)  
+*Journal:* Cureus  
+*Summary:* This paper presents a case report of a delayed diagnosis and discusses how AI tools could augment clinician decision-making, highlighting the potential benefits and pitfalls of AI in clinical decision-making.
+
+#### Enhancing Healthcare with AI Virtual Assistants in Telemedicine
+
+**When Virtual Assistants Meet Teledermatology: Validation of a Virtual Assistant to Improve the Quality of Life of Psoriatic Patients**  
+*Authors:* Surya Roca et al. (2022)  
+*Journal:* International Journal of Environmental Research and Public Health  
+*Summary:* This study investigated the effectiveness of using a virtual assistant for teledermatology and found that it improved the quality of life of psoriatic patients.
+
+**Beyond Patient Monitoring: Conversational Agents' Role in Telemedicine & Healthcare Support for Home-Living Elderly Individuals**  
+*Authors:* Ahmed Fadhil (2018)  
+*Journal:* ar
+
+Xiv.org  
+*Summary:* The paper discusses the role of conversational agents (chatbots) in telemedicine and healthcare support for home-living elderly individuals, particularly after hospital discharge.
+
+**Readiness for Voice Assistants to Support Healthcare Delivery During a Health Crisis and Pandemic**  
+*Authors:* Emre Sezgin et al. (2020)  
+*Journal:* npj Digital Medicine  
+*Summary:* The paper examines the use of voice assistants as an emerging tool for remote healthcare delivery during the COVID-19 pandemic.
+
+**A Virtual Assistant Dedicated to Supporting Day-to-Day Medical Consultations**  
+*Authors:* A. Richard et al. (2021)  
+*Journal:* IEEE International Conference on Healthcare Informatics  
+*Summary:* A virtual assistant was developed to support physicians during medical consultations by anticipating and providing them with needed information based on patient data. This system was appreciated by physicians according to clinical trials.
+
+**Improving User Experience of Virtual Health Assistants: Scoping Review**  
+*Authors:* R. Curtis et al. (2021)  
+*Journal:* Journal of Medical Internet Research  
+*Summary:* This scoping review aims to provide an overview, summarize research findings, and provide recommendations on how design characteristics of virtual health assistants, such as empathy and relational behavior, affect user experience.
+
+**Virtual Assistants for Vascular Surgeons**  
+*Authors:* F. Lareyre et al. (2020)  
+*Journal:* Journal of Vascular Surgery  
+*Summary:* The abstract discusses the potential applications of virtual assistants and artificial intelligence in the field of vascular surgery, including how they could be used to alleviate administrative tasks, improve clinical data management, assist clinicians in diagnosis and prognosis, and enhance surgical planning.
+
+**Virtual Assistant in Health Care**  
+*Authors:* Ayush Kumar Sahu et al. (2024)  
+*Journal:* IEEE 1st Karachi Section Humanitarian Technology Conference (KHI-HTC)  
+*Summary:* The paper discusses the potential of virtual assistants in healthcare, particularly for providing support and assistance to older adults in their daily life and health-related tasks.
+
+**Virtual Health Assistants**  
+*Authors:* Various (2021)  
+*Summary:* Virtual health assistants like Alexa and Siri provide convenience and safety but also pose privacy, cybersecurity, and physical security risks that must be carefully considered before their application in healthcare.
+
