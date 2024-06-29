@@ -224,6 +224,52 @@ AI plays a significant role in improving stroke diagnosis in emergency departmen
 **Key References:**
 - "Using artificial intelligence for improving stroke diagnosis in emergency departments: a practical framework," V. Abedi et al. [DOI: 10.1177/1756286420938962](https://doi.org/10.1177/1756286420938962). Therapeutic Advances in Neurological Disorders, 2020.
 
+#### Using Artificial Intelligence for Improving Stroke Diagnosis in Emergency Departments: A Practical Framework
+
+
+Stroke remains a leading cause of death and severe disability globally, with rapid diagnosis and treatment being crucial for improving patient outcomes. The complexity of stroke symptoms and the dynamic environment of emergency departments (EDs) often result in diagnostic challenges and delays. AI-based decision support systems can significantly aid ED providers by leveraging clinical data and patient symptoms to enhance the accuracy and speed of stroke diagnosis.
+
+#### Building the Training and Testing Cohorts
+
+Creating robust training and testing cohorts is fundamental for developing an effective ML-enabled decision support system. This involves defining inclusion and exclusion criteria to ensure clear separation between stroke cases and controls, aligning with clinical pipelines. For instance, confirmed stroke cases should include patients with severe conditions confirmed by neuroimaging, while controls should represent stroke mimics and misdiagnoses. Data integrity during aggregation is paramount, requiring careful preprocessing to ensure consistency and accuracy. Techniques like median imputation for missing values and natural language processing (NLP) for extracting critical information from clinical notes are essential for building a reliable dataset.
+
+#### Designing the ML-Enabled Diagnostic Tool
+
+The design process involves iterative steps of training, testing, and predicting stroke probability using various ML models. Exploratory data analysis helps identify feature distributions and data quality issues. Feature selection and engineering reduce overfitting and training time while improving model accuracy. Techniques like nested K-fold cross-validation ensure robust hyperparameter tuning and model selection. Given the asymmetric cost of misdiagnosis in stroke, the system should prioritize high sensitivity and negative predictive value (NPV) while maintaining reasonable specificity.
+
+#### Workflow and System Implementation
+
+The integration of an ML-enabled decision support system into ED workflows should be seamless to avoid disrupting patient care. Upon a patient’s arrival and initial assessment, the system analyzes symptoms and medical history to generate a ‘stroke alert’ if a significant stroke probability is detected. This alert prompts the ED provider to take appropriate actions, such as ordering confirmatory imaging or consulting a neurologist. The goal is to enhance the speed and accuracy of stroke diagnosis, particularly for self-presenting patients with milder symptoms.
+
+#### System Adoption and Evaluation
+
+Promoting system adoption requires addressing challenges such as alert fatigue, workflow interruptions, and user confidence in AI recommendations. Engaging stakeholders, including end-users and hospital leaders, in the planning stages can facilitate acceptance. System evaluation involves ongoing, agile assessments to ensure continuous improvement in effectiveness and performance. Transparent reporting of evaluation findings to stakeholders is crucial for maintaining trust and identifying areas for improvement.
+
+#### Challenges and Opportunities
+
+##### Technical Challenges
+
+1. **Tool and Model Dependencies**: Selecting appropriate tools and languages for production is critical. Ensuring the pipeline is implementation-agnostic can mitigate downstream technical challenges.
+2. **Model Drift**: Continuous adaptation and re-training are necessary to address changes in population health and maintain model accuracy over time.
+3. **Model Generalizability**: Developing models that generalize well across different healthcare settings requires comprehensive data and techniques like transfer learning.
+
+##### Operational Challenges
+
+1. **Real-Time Integration**: Implementing ML models for real-time predictions within EHRs demands specialized expertise and can be resource-intensive for smaller healthcare systems.
+2. **Usability and Adoption**: Ensuring user-friendly interfaces and integrating clinical-expert feedback from the initial phases can enhance adoption and usability.
+
+##### Ethical Challenges
+
+1. **Fairness and Bias**: Ensuring fair and unbiased AI systems is critical. Collaboration between clinicians and AI developers can help define acceptable biases and maintain high standards of patient safety.
+2. **Regulatory Compliance**: Adhering to guidelines from regulatory bodies like the FDA ensures compliance and best practices for data-driven models.
+
+#### Conclusion
+
+The integration of AI in stroke diagnosis within EDs holds immense potential to improve patient care and outcomes. By addressing technical, operational, and ethical challenges, AI can enhance the speed and accuracy of stroke diagnosis, ultimately reducing treatment delays and improving prognosis. Continued collaboration between healthcare providers and AI developers is essential for realizing the full potential of AI-driven decision support systems in emergency medicine. 
+
+**References:**
+Abedi V, Khan A, Zand R. "Using artificial intelligence for improving stroke diagnosis in emergency departments: a practical framework." [DOI: 10.1177/1756286420938962](https://doi.org/10.1177/1756286420938962)
+
 ### 6. Interpretability and Trust in AI
 
 The use of SHAP (SHapley Additive exPlanations) values and other interpretability techniques enhances the transparency of AI models in emergency medicine. SHAP values help clinicians understand the contribution of each feature to the model's predictions, fostering trust and enabling more informed decision-making. This interpretability is crucial for integrating AI into clinical workflows and ensuring its acceptance among healthcare providers.
