@@ -1,3 +1,119 @@
+Sure, here is the updated Module 11 with the basic rules of probability included:
+
+---
+
+### INFO 6205 Key Concepts
+
+#### Module 1: Introduction to Algorithms Course (6205)
+- **Introduction to Algorithms**: Overview of algorithms, their importance, and applications in computing. Basic understanding of algorithmic problem solving and the role of algorithms in computer science.
+- **History of Algorithms**: Evolution and milestones in the development of algorithms.
+- **Algorithmic Thinking**: How to approach problem-solving with algorithms, including steps for designing and analyzing algorithms.
+- **Programming Paradigms**: Different styles of programming (procedural, object-oriented, functional) and their relation to algorithms.
+- **Basic Algorithm Concepts**: Concepts like variables, control structures (loops, conditionals), and basic data structures (arrays, lists).
+
+#### Module 2: Stable Matching and the Gale-Shapley Algorithm
+- **Stable Matching**: Concept of a matching where no pair of elements would rather be matched with each other than their current partners.
+- **Stable Matching Problem**: Formal definition and examples.
+- **Gale-Shapley Algorithm**: Procedure to find a stable matching, also known as the Deferred Acceptance Algorithm.
+- **Optimality Example**: Demonstrating the optimality properties of the Gale-Shapley algorithm.
+
+#### Module 3: Sorting and Caching
+- **Sorting**: Different sorting algorithms (e.g., quicksort, mergesort, heapsort) and their efficiencies.
+- **Caching**: Techniques and algorithms for optimizing data retrieval (e.g., Least Recently Used (LRU) caching).
+
+#### Module 4: Algorithm Analysis
+- **Algorithm Analysis**: Techniques for evaluating the efficiency of algorithms.
+- **Computational Tractability**: Determining whether a problem can be solved in polynomial time.
+- **Asymptotic Order of Growth**: Big O notation and other asymptotic notations to describe algorithm performance.
+- **Survey of Common Running Times**: Common time complexities (e.g., O(1), O(log n), O(n), O(n log n), O(n^2), etc.).
+
+#### Module 5: Graphs and Graph Search Algorithms
+- **Graphs**: Definition and representation of graphs.
+- **Basic Definition and Applications**: Uses of graphs in real-world problems.
+- **Graph Connectivity and Graph Traversal**: Concepts like connected components, graph traversal methods.
+- **BFS**: Breadth-First Search algorithm and its applications.
+- **DFS**: Depth-First Search algorithm and its applications.
+- **Heuristic Search**: Techniques like A* algorithm for informed search.
+- **Connectivity in Directed Graphs**: Strongly connected components.
+- **DAGs and Topological Order**: Directed Acyclic Graphs and topological sorting.
+
+#### Module 6: Greedy Algorithms
+- **Greedy Algorithms**: Approach to problem-solving where the best choice is made at each step.
+- **What is greedy?**: Concept and examples of greedy algorithms.
+- **Dijkstra's Algorithm**: Finding the shortest path in a weighted graph.
+- **Minimum Spanning Trees**: Concepts and algorithms to find MST.
+- **Prim, Kruskal**: Specific algorithms to find MST.
+
+#### Module 7: Divide and Conquer Strategies
+- **Divide and Conquer**: Strategy to solve problems by breaking them into smaller subproblems.
+- **What is divide and conquer**: Explanation and examples.
+- **Mergesort**: Example of a divide and conquer algorithm.
+- **Master Theorem**: Method for analyzing the time complexity of divide and conquer algorithms.
+
+#### Module 8: Dynamic Programming
+- **Dynamic Programming**: Method for solving complex problems by breaking them down into simpler subproblems.
+- **What is dynamic programming**: Explanation and examples.
+- **Optimal Substructure**: Principle where optimal solutions to subproblems contribute to the optimal solution of the overall problem.
+- **Knapsack Problem**: Classic example of a dynamic programming problem.
+- **Bellman–Ford–Moore Algorithm**: Algorithm for finding shortest paths in graphs with negative weights.
+- **Negative Cycles**: Handling and detecting negative cycles in graphs.
+
+#### Module 9: Network Flow
+- **Network Flow**: Study of flow networks.
+- **What are flow graphs**: Definition and examples.
+- **Max-flow and min-cut problems**: Fundamental problems in network flow.
+- **Ford–Fulkerson Algorithm**: Method for computing maximum flow in a flow network.
+- **Max-flow Min-cut Theorem**: Relationship between maximum flow and minimum cut in a network.
+- **Residual Graphs**: Concept and construction.
+- **Augmenting Paths**: Finding paths to increase flow.
+- **Push-relabel**: Advanced algorithm for network flow.
+- **Bipartite Matching**: Matching in bipartite graphs.
+
+#### Module 10: Intractability
+- **Intractability**: Study of problems that are hard to solve efficiently.
+- **Poly-time Reductions**: Transforming one problem into another in polynomial time.
+- **P vs. NP**: Fundamental question in computer science about problem-solving efficiency.
+- **NP-complete**: Class of problems for which no efficient solution is known.
+- **Co-NP**: Complementary class of NP.
+- **NP-hard**: Problems as hard as the hardest problems in NP.
+- **Certifying NP**: Proving that a solution belongs to NP.
+- **Proving NP-Complete**: Techniques to show a problem is NP-complete.
+
+#### Module 11: Bayes’ Rule
+- **Bayes’ Rule**: Fundamental theorem in probability theory.
+- **Applications of Bayes’ Rule**: Use in statistics, machine learning, and decision-making.
+- **Basic Rules of Probability**:
+  - **Probability Definition**: Measure of the likelihood that an event will occur.
+  - **Sample Space**: Set of all possible outcomes.
+  - **Events**: Subsets of the sample space.
+  - **Probability Axioms**: 
+    1. Non-negativity: \( P(A) \geq 0 \) for any event \( A \).
+    2. Normalization: \( P(S) = 1 \) for the sample space \( S \).
+    3. Additivity: For any two mutually exclusive events \( A \) and \( B \), \( P(A \cup B) = P(A) + P(B) \).
+  - **Conditional Probability**: Probability of an event given that another event has occurred, \( P(A|B) = \frac{P(A \cap B)}{P(B)} \).
+  - **Independence**: Two events \( A \) and \( B \) are independent if \( P(A \cap B) = P(A)P(B) \).
+  - **Law of Total Probability**: If \( B_1, B_2, \ldots, B_n \) are mutually exclusive and exhaustive events, then \( P(A) = \sum_{i=1}^{n} P(A|B_i)P(B_i) \).
+
+#### Module 12: Approximation Algorithms
+- **Approximation Algorithms**: Algorithms for finding approximate solutions to optimization problems.
+- **Why Approximation Algorithms**: Situations where exact solutions are computationally infeasible.
+- **Load Balancing**: Distributing work evenly across resources.
+
+#### Module 13: Randomized Algorithms
+- **Randomized Algorithms**: Algorithms that use random numbers to influence their behavior.
+- **Contention Resolution**: Techniques for managing access to shared resources.
+- **Linearity of Expectation**: Mathematical expectation in randomized algorithms.
+- **Max 3-Satisfiability**: Approximation algorithm for solving satisfiability problems.
+- **Universal Hashing**: Hashing technique with guaranteed performance.
+- **Chernoff Bounds**: Probabilistic bounds on the sum of random variables.
+- **Load Balancing**: Use of randomization for distributing work evenly.
+- **TSP**: Randomized approaches to the Traveling Salesman Problem.
+
+---
+
+These additions complete the outline with key concepts relevant to each module.
+
+
 
 #### Personnel Requirements
 
