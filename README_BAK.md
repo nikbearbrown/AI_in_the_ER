@@ -108,6 +108,72 @@ Sure, here is the updated Module 11 with the basic rules of probability included
 - **Chernoff Bounds**: Probabilistic bounds on the sum of random variables.
 - **Load Balancing**: Use of randomization for distributing work evenly.
 - **TSP**: Randomized approaches to the Traveling Salesman Problem.
+- 
+
+Here are the most important data structures from each category:
+
+---
+
+### Primitive Data Structures
+1. **Integers**
+    - **Description**: Basic numerical data type representing whole numbers.
+    - **Usage**: Used for counting, indexing, and arithmetic operations.
+
+2. **Floats**
+    - **Description**: Numerical data type representing real numbers with fractional parts.
+    - **Usage**: Used in scientific computations, graphics, and calculations requiring precision.
+
+3. **Characters**
+    - **Description**: Data type representing single alphabetic letters or symbols.
+    - **Usage**: Used in text processing, string manipulation, and user input handling.
+
+### Linear Data Structures
+1. **Arrays**
+    - **Description**: Collection of elements identified by index or key, stored in contiguous memory locations.
+    - **Usage**: Used for indexing, iteration, and quick access to elements.
+
+2. **Linked Lists**
+    - **Description**: Sequential collection of elements, where each element points to the next.
+    - **Usage**: Used for dynamic memory allocation, easy insertion/deletion operations.
+
+3. **Stacks**
+    - **Description**: Collection of elements following Last In, First Out (LIFO) principle.
+    - **Usage**: Used in function call management, backtracking algorithms, and expression evaluation.
+
+### Non-linear Data Structures
+1. **Trees**
+    - **Description**: Hierarchical structure with nodes connected by edges, with a single root node.
+    - **Usage**: Used in databases, hierarchical data representation, and file systems.
+
+2. **Graphs**
+    - **Description**: Collection of nodes connected by edges, can be directed or undirected.
+    - **Usage**: Used in network representation, social media connections, and shortest path algorithms.
+
+3. **Heaps**
+    - **Description**: Special tree-based structure that satisfies the heap property (max-heap or min-heap).
+    - **Usage**: Used in priority queues, heap sort, and memory management.
+
+### Homogeneous Data Structures
+1. **Arrays**
+    - **Description**: Collection of elements of the same type, stored in contiguous memory locations.
+    - **Usage**: Used for static data storage, indexing, and iteration.
+
+2. **Tuples**
+    - **Description**: Ordered collection of elements, typically immutable.
+    - **Usage**: Used for fixed collections of items, like coordinates or fixed-length records.
+
+### Heterogeneous Data Structures
+1. **Structs**
+    - **Description**: Composite data type that groups variables of different types under a single name.
+    - **Usage**: Used in C/C++ for grouping related data items.
+
+2. **Classes**
+    - **Description**: User-defined data type that encapsulates data and methods for manipulating that data.
+    - **Usage**: Used in object-oriented programming to model real-world entities with attributes and behaviors.
+
+---
+
+These data structures are selected for their fundamental roles and broad applications in computer science and programming.
 
 ---
 
